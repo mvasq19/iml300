@@ -1,8 +1,15 @@
 .title {
+    text-align: center;
     color: white;
     font-family: helvetica;
 }
 .header {
+    text-align: center;
     color: white;
+    font-family: helvetica;
+}
+.navbar {
+    font-weight: bold;
+    font-size: 20px;
     font-family: helvetica;
 }

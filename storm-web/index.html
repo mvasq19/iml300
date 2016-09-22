@@ -5,11 +5,34 @@
     <meta charset="UTF-8">
     <title>Mark Vasquez</title>
     <link rel="stylesheet" href="./css/index.css">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+        li {
+            float: left;
+            display: inline;
+        }
+        li a {
+            display: block;
+            color: lightblue;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1 class="title">Mark Vasquez</h1>
     <h2 class="header">IML 300: Reading and Writing the Web</h2>
-    <ul style="list-style-type:circle">
+    <ul class="navbar" style="list-style-type:circle">
         <li><a href="about.html">About</a></li>
         <li><a href="links.html">Links</a></li>
         <li><a href="assignments.html">Assignments</a></li>
