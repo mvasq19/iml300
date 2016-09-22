@@ -1,7 +1,8 @@
 .title {
     text-align: center;
     color: white;
-    font-family: helvetica;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 72px
 }
 .header {
     text-align: center;
