@@ -1,24 +1,37 @@
-.title {
-    text-align: center;
-    color: white;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 72px
-}
 .header {
     text-align: center;
-    color: white;
-    font-family: helvetica;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 .navbar {
     font-weight: bold;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
-#triangle {
+triangle {
     margin: auto;
     width: 0;
     height: 0;
     border-bottom: 100px solid #7e89a7;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+  margin-left:300px;
+  margin-right:300px;
+  padding:60px;
+  background-color:#7e89a7;
+  color: white;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
