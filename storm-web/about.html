@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <br>
+  <a href="http://storm.usc.edu/~mdvasque/iml300/">
+        <img src="images/logodone.gif" class="center" width="150" height="150">
+    </a>
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <meta charset="UTF-8">
     <title>About</title>
+    <link href="css/about.css" rel="stylesheet">
     <style>
-        .title {
-            font-family: helvetica;
-            color:  #7e89a7;
+        body {
+            background-color: white;
         }
-        p {
-            font-size: 24px;
-            font-family: 'Raleway', sans-serif;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
         }
+        li {
+            float: left;
+            display: inline;
+        }
+        li a {
+            display: block;
+            color: #7e89a7;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #7e89a7;
+            color: white;
+        }
+          <!-- I pulled the following code from http://www.w3schools.com/css/css_navbar.asp
+
+        (I know how the code is working. I simply followed the tutorial in order to make the navbar from the demo.)
+  -->
     </style>
 </head>
-<body>
-    <h1 class="title">About Me</h1>
+<body class="w3-container">
+   <br>
+    <h4 class="header">IML 300: Reading and Writing the Web</h4>
+    <ul class="navbar" style="list-style-type:circle">
+        <li><a href="about.html">about</a></li>
+        <li><a href="links.html">links</a></li>
+        <li><a href="assignments.html">assignments</a></li>
+    </ul>
+    <br>
+    <h3 class="title">About Me</h3>
     <p>Hello! My name is Mark Vasquez and I'm currently an undecided sophomore. My interests are mainly photography and drawing, and also scrolling through tumblr. I mostly showcase my photos on my instagram account. I love watching movies! (Horror and Rom Coms are two of my favorite genres.) I like to use photoshop sporadically when i feel in the mood to be creative and make somethign random, like a wallpaper for my phone or a desktop background. For photo editing, I prefer to use the apps on my phone to edit. </p>
 </body>
 </html>

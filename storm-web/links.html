@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <br>
+  <a href="http://storm.usc.edu/~mdvasque/iml300/">
+        <img src="images/logodone.gif" class="center" width="150" height="150">
+    </a>
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Links</title>
+    <link href="css/links.css" rel="stylesheet">
     <style>
-        .title{
-            font-family: helvetica;
+        body {
+            background-color: white;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+        li {
+            float: left;
+            display: inline;
+        }
+        li a {
+            display: block;
             color: #7e89a7;
+            padding: 8px 16px;
+            text-decoration: none;
         }
-        a {
-            font-size: 20px;
-            font-family: 'Raleway', sans-serif;
+        li a:hover {
+            background-color: #7e89a7;
+            color: white;
         }
-        a:link {
-            color: black;
-        }
-        a:visited {
-            color: cornflowerblue;
-        }
-        a:hover {
-            color: #7e89a7;
-        }
+          <!-- I pulled the following code from http://www.w3schools.com/css/css_navbar.asp
+
+        (I know how the code is working. I simply followed the tutorial in order to make the navbar from the demo.)
+  -->
     </style>
 </head>
-<body>
-    <h1 class="title">My Favorite Sites</h1>
+<body class="w3-container">
+   <br>
+    <h4 class="header">IML 300: Reading and Writing the Web</h4>
+    <ul class="navbar" style="list-style-type:circle">
+        <li><a href="about.html">about</a></li>
+        <li><a href="links.html">links</a></li>
+        <li><a href="assignments.html">assignments</a></li>
+    </ul>
+    <br>
+    <h3 class="title">My Favorite Sites</h3>
     <a href="https://www.instagram.com/_marky_v/"><h3>My Instagram</h3></a>
     <a href="http://marky-v.tumblr.com/"><h3>My Tumblr</h3></a>
     <a href="https://youtu.be/dQw4w9WgXcQ"><h3>Youtube</h3></a>

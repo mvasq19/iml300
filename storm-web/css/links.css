@@ -1,0 +1,35 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.title {
+     font-family: 'Open Sans', sans-serif;
+    color: #7e89a7;
+    text-align: center;
+        }
+a {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+        }
+a link {
+    text-decoration: none;
+    color: black;
+        }
+a visited {
+    color: cornflowerblue;
+        }
+a hover {
+    color: #7e89a7;
+        }
