@@ -3,12 +3,7 @@
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
-.navbar {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-}
-triangle {
+<!--triangle {
     margin: auto;
     width: 0;
     height: 0;
@@ -22,8 +17,8 @@ img.center {
     margin-right: auto;
 }
 p {
-  margin-left:300px;
-  margin-right:300px;
+  margin-left:200px;
+  margin-right:200px;
   padding:60px;
   background-color:#7e89a7;
   color: white;
